@@ -1,0 +1,120 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  background: rgb(36, 53, 63);
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.group {
+  width: 70%;
+  margin: 4rem auto;
+  box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+  padding: 3rem;
+}
+
+.main-heading {
+  font-size: 4rem;
+  color: rgb(23, 162, 184);
+  text-align: center;
+}
+
+.form-control {
+  font-size: inherit;
+  width: 100%;
+  outline: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: rgb(36, 53, 63);
+  color: #ccc;
+  margin: 2rem 0;
+}
+
+.form-control:focus {
+  border-color: rgb(128, 189, 255);
+}
+
+.btn {
+  margin: 2rem 0;
+  color: rgb(23, 162, 184);
+  background: rgb(36, 53, 63);
+  cursor: pointer;
+  font-size: inherit;
+  text-align: center;
+  white-space: nowrap;
+  padding: 1rem;
+  border: 1px solid rgb(23, 162, 184);
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+}
+
+.btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(23, 162, 184);
+  border-color: rgb(23, 162, 184);
+}
+
+#incorrect,
+.text-danger {
+  text-align: center;
+  color: red;
+}
+
+.text-success {
+  color: green;
+  text-align: center;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-white > a {
+  color: rgb(23, 162, 184);
+  text-decoration: none;
+}
+
+.text-white > a:hover {
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(36, 53, 63);
+  box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+  padding: 1.5rem 3rem;
+}
+
+.header .btn {
+  width: fit-content;
+  margin: 0;
+  color: gold;
+  border: 1px solid gold;
+}
+
+.header__heading {
+  margin: 0;
+  color: #fff;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.home__heading {
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+}

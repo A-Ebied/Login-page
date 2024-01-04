@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <section class="group">
+      <h3 class="main-heading">Smart Login System</h3>
+      <div class="form-group">
+        <input
+          type="text"
+          id="signinEmail"
+          class="form-control"
+          placeholder="Email: "
+        />
+        <input
+          type="password"
+          id="signinPassword"
+          class="form-control"
+          placeholder="Password: "
+        />
+        <p id="incorrect"></p>
+        <button onclick="login()" class="btn">Login</button>
+        <p class="text-white">
+          Don’t have an account?
+          <a class="text-white" href="components/signup.html">Sign Up</a>
+        </p>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
